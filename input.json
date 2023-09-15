@@ -1,0 +1,46 @@
+{
+    "post": {
+        "id": "12345",
+        "title": "The Future of Artificial Intelligence",
+        "auth": {
+            "id": "6789",
+            "name": "Jane Doe",
+            "profUrl": "https://example.com/authors/jane_doe",
+            "img": "https://example.com/images/jane_doe_avatar.jpg",
+            "bio": "Jane is a leading expert...",
+            "socMed": {
+                "tw": "https://twitter.com/janedoe",
+                "li": "https://linkedin.com/in/janedoe"
+            }
+        },
+        "prop_1_k": "Domain",
+        "prop_1_v": "Information Technology",
+        "prop_2_k": "Category",
+        "prop_2_v": "Artificial Intelligence",
+        "prop_3_k": "Subcategory",
+        "prop_3_v": "Machine Learning",
+        "prop_4_k": "Language",
+        "prop_4_v": "English",
+        "pubDt": "2023-09-15T10:30:00Z",
+        "draftDt": "2023-09-11T10:30:00Z",
+        "postDt": "2023-09-11T10:30:00Z",
+        "content": "Artificial Intelligence (AI)...",
+        "tags": ["AI", "Future", "Technology", "Innovation", "Robotics", "Neural Networks"],
+        "relArt": [
+            {
+                "id": "54321",
+                "title": "The Ethics of Artificial Intelligence",
+                "url": "https://example.com/articles/ethics_ai"
+            }
+        ],
+        "likes": 124,
+        "shares": 35,
+        "views": 1025,
+        "featImg": "https://example.com/images/ai_future.jpg",
+        "editor": {
+            "id": "3333",
+            "name": "Robert Lane",
+            "email": "robert@example.com"
+        }
+    }
+}

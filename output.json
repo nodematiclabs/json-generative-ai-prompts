@@ -1,0 +1,32 @@
+{
+   "author": {
+      "biography": "Jane is a leading expert...",
+      "name": "Jane Doe",
+      "social media": {
+         "linkedin": "https://linkedin.com/in/janedoe",
+         "twitter": "https://twitter.com/janedoe"
+      }
+   },
+   "drafted": "2023-09-11T10:30:00Z",
+   "posted": "2023-09-11T10:30:00Z",
+   "properties": {
+      "Category": "Artificial Intelligence",
+      "Domain": "Information Technology",
+      "Language": "English",
+      "Subcategory": "Machine Learning"
+   },
+   "published": "2023-09-15T10:30:00Z",
+   "related author articles": [
+      "The Ethics of Artificial Intelligence"
+   ],
+   "snippet": "Artificial Intelligence (AI)...",
+   "tags": [
+      "AI",
+      "Future",
+      "Technology",
+      "Innovation",
+      "Robotics",
+      "Neural Networks"
+   ],
+   "title": "The Future of Artificial Intelligence"
+}
