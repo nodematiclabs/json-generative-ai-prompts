@@ -1,0 +1,768 @@
+mouseWheel:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+elementDraw:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+height: 740
+snapSettings:
+  constraints: 16
+serializationSettings:
+  preventDefaults: true
+contextMenuSettings:
+  show: true
+  items:
+    - text: Edit
+      id: edit
+      target: .e-elementcontent
+      iconCss: fa fa-cogs
+    - text: Callout To
+      id: callout
+      target: .e-elementcontent
+      iconCss: fa fa-crosshairs
+    - text: Increase font size ↑
+      id: increaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Decrease font size ↓
+      id: decreaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Fill
+      id: fill
+      target: .e-elementcontent
+      iconCss: fa fa-tint
+    - text: Highlight
+      id: highlight
+      target: .e-elementcontent
+      iconCss: fa fa-lightbulb-o
+    - text: Collapse to square
+      id: collapseToSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to circle
+      id: collapseToCircle
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Expand
+      id: expand
+      target: .e-elementcontent
+      iconCss: fa fa-expand
+    - text: Bring to front
+      id: front
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-up
+    - text: Bring forward
+      id: forward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-up
+    - text: Send backward
+      id: backward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-down
+    - text: Send to back
+      id: back
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-down
+    - text: Remove
+      id: remove
+      target: .e-elementcontent
+      iconCss: fa fa-times
+  showCustomMenuOnly: true
+tool: 5
+scrollSettings:
+  scrollLimit: Infinity
+  viewPortWidth: 1535.2000732421875
+  viewPortHeight: 740
+  horizontalOffset: -283
+  verticalOffset: 13
+addInfo:
+  stages:
+    - control: prepend
+      class: p-button-secondary
+      icon: pi pi-plus
+    - name: Define
+      id: define
+      progress: 100
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#689F38"
+      dates:
+        - {}
+        - {}
+      datesEnabled: false
+      taskLevelProgress: true
+      tasks:
+        - name: Task 1
+          progress: 100
+        - name: Task 2
+          progress: 100
+    - name: Measure
+      id: measure
+      progress: 0
+      details: ""
+      delayed: true
+      atRisk: true
+      blocked: true
+      color: "#D32F2F"
+      dates:
+        - {}
+        - {}
+      datesEnabled: false
+      taskLevelProgress: false
+      tasks:
+        - name: Task 1
+          progress: 0
+    - name: Anayze
+      id: analyze
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#D32F2F"
+      dates:
+        - {}
+        - {}
+      datesEnabled: false
+      taskLevelProgress: false
+      tasks:
+        - name: Task 1
+          progress: 0
+    - name: Improve
+      id: improve
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#D32F2F"
+      dates:
+        - {}
+        - {}
+      datesEnabled: false
+      taskLevelProgress: false
+      tasks:
+        - name: Task 1
+          progress: 0
+    - name: Control
+      id: control
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#D32F2F"
+      dates:
+        - {}
+        - {}
+      datesEnabled: false
+      taskLevelProgress: false
+      tasks:
+        - name: Task 1
+          progress: 0
+    - control: append
+      class: p-button-secondary
+      icon: pi pi-plus
+  currencyText: USD ($)
+  currencySymbol: $
+  selectedViewType: 1
+connectors:
+  - id: Dashed Straight ConnectoryMNyZ
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 271
+      y: 367
+    targetPoint:
+      x: 271
+      y: 309
+    sourceID: JavaScriptVSdtt
+    targetID: Prompt DataVC67R
+    addInfo:
+      viewConnector: 0
+    zIndex: 2
+  - id: Straight Connectorq68Jh
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 421
+      y: 259
+    targetPoint:
+      x: 493
+      y: 259
+    sourceID: Prompt DataVC67R
+    targetID: Vertex AIws4nR
+    addInfo:
+      viewConnector: 0
+    zIndex: 4
+  - id: Straight Connectored3Sb
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 121
+      y: 381.8
+    targetPoint:
+      x: 63
+      y: 368.2
+    sourceID: JavaScriptVSdtt
+    targetID: JsonnetcbiUW
+    addInfo:
+      viewConnector: 0
+    zIndex: 6
+  - id: Straight ConnectornsDOU
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 63
+      y: 302
+    targetPoint:
+      x: 121
+      y: 290.01
+    sourceID: JsonnetcbiUW
+    targetID: Prompt DataVC67R
+    addInfo:
+      viewConnector: 0
+    zIndex: 7
+  - id: Dashed Straight ConnectorqfTMD
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 873
+      y: 313.21
+    targetPoint:
+      x: 793
+      y: 294.36
+    sourceID: PaLM AIwLvOH
+    targetID: Vertex AIws4nR
+    addInfo:
+      viewConnector: 0
+    zIndex: 9
+  - id: Straight ConnectorQoRqu
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 421
+      y: 417
+    targetPoint:
+      x: 493
+      y: 417
+    sourceID: JavaScriptVSdtt
+    targetID: Vertex AIws4nRMKdTe
+    addInfo:
+      viewConnector: 0
+    zIndex: 11
+  - id: Dashed Straight Connectordb37K
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 873
+      y: 341.43
+    targetPoint:
+      x: 793
+      y: 367.71
+    sourceID: PaLM AIwLvOH
+    targetID: Vertex AIws4nRMKdTe
+    addInfo:
+      viewConnector: 0
+    zIndex: 12
+nodes:
+  - shape:
+      type: HTML
+      content: >2-
+        
+              <div class="c-html" style="background-color: #4e3391;"><div class="c-container"><div class="c-image-primary" style="background-image: url(https://res.cloudinary.com/dwohyn92h/image/upload/v1687708915/sds_logos/Document_agreement_Black_87_nfatqu.png);"></div><div class="c-image-original" style="background-image: url(https://res.cloudinary.com/dwohyn92h/image/upload/v1687708915/sds_logos/Document_agreement_qaidtu.png);"></div>
+              <div class="c-text">
+                <div class="c-title">Prompting with JSON</div>
+                <div class="c-short-description">Training and evaluating AI models via natural language input (prompts)</div>
+                <div class="c-bottom">
+                  <div class="c-hr p-mb-1"></div>
+                  <div class="c-title-bottom">Prompt Data</div>
+                </div>
+              </div>
+            </div>
+            </div>
+    id: Prompt DataVC67R
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Prompt Data
+        shortDescription: Training and evaluating AI models via natural language input (prompts)
+      economicView:
+        name: Prompting with JSON
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        shortDescription: Training and evaluating AI models via natural language input (prompts)
+        viewType: description
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Prompt Data
+      editableName: Prompting with JSON
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Data Generator
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: data
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenData
+      dynamicsViews:
+        - type: Generator
+          status: Idle
+          name: Data Generator
+          AverageTimeBetweenData: 1
+      name: Prompt Data
+      category: 2
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1687708915/sds_logos/Document_agreement_qaidtu.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1687708915/sds_logos/Document_agreement__044448_q1e9r7.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1687708915/sds_logos/Document_agreement_Black_87_nfatqu.png
+      color: "#4e3391"
+      controlText: Prompt Data
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToCircle: true
+    width: 300
+    height: 100
+    offsetX: 271
+    offsetY: 259
+    zIndex: 0
+    inEdges:
+      - Dashed Straight ConnectoryMNyZ
+      - Straight ConnectornsDOU
+    outEdges:
+      - Straight Connectorq68Jh
+  - shape:
+      type: HTML
+      content: >2-
+        
+              <div class="c-html" style="background-color: #7D7115;"><div class="c-container"><div class="c-image-primary" style="background-image: url(https://res.cloudinary.com/dwohyn92h/image/upload/v1671459803/sds_logos/Programming%20Languages/JavaScript_Black_87_v2_blnkik.png);"></div><div class="c-image-original" style="background-image: url(https://res.cloudinary.com/dwohyn92h/image/upload/v1663310164/sds_logos/Programming%20Languages/JavaScript_tsgt0s.png);"></div>
+              <div class="c-text">
+                <div class="c-title">JSON (e.g., JS Services)</div>
+                <div class="c-short-description">Plain text JSON data from application, services, scripts, etc.</div>
+                <div class="c-bottom">
+                  <div class="c-hr p-mb-1"></div>
+                  <div class="c-title-bottom">JavaScript</div>
+                </div>
+              </div>
+            </div>
+            </div>
+    id: JavaScriptVSdtt
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: JavaScript
+        shortDescription: Plain text JSON data from application, services, scripts, etc.
+      economicView:
+        name: JSON (e.g., JS Services)
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        shortDescription: Plain text JSON data from application, services, scripts, etc.
+        viewType: description
+      status: N/A
+      size: sm
+      nodeType: html
+      title: JavaScript
+      editableName: JSON (e.g., JS Services)
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Automated Task
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageTaskDuration
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Automated Task
+          AverageTaskDuration: 1
+      name: JavaScript
+      category: 6
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1663310164/sds_logos/Programming%20Languages/JavaScript_tsgt0s.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1671459803/sds_logos/Programming%20Languages/JavaScript__0484848_v2_gfmmle.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1671459803/sds_logos/Programming%20Languages/JavaScript_Black_87_v2_blnkik.png
+      controlText: JavaScript
+      color: "#7D7115"
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToCircle: true
+    width: 300
+    height: 100
+    offsetX: 271
+    offsetY: 417
+    zIndex: 1
+    outEdges:
+      - Dashed Straight ConnectoryMNyZ
+      - Straight Connectored3Sb
+      - Straight ConnectorQoRqu
+  - shape:
+      type: HTML
+      content: >2-
+        
+              <div class="c-html" style="background-color: #3871e0;"><div class="c-container"><div class="c-image-primary" style="background-image: url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai_Black_87_vxjlos.png);"></div><div class="c-image-original" style="background-image: url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai_lkhlnv.png);"></div>
+              <div class="c-text">
+                <div class="c-title">Generative AI Studio</div>
+                <div class="c-cost-total">
+              <span class="c-cost-total-number">$4.245k</span>
+              <div class="c-cost-total-symbols">$</div><div class="c-cost-total-symbols">$</div><div class="c-cost-total-symbols">&nbsp;</div><div class="c-cost-total-symbols">&nbsp;</div><div class="c-cost-total-symbols">&nbsp;</div>
+            </div>
+                <div class="c-bottom">
+                  <div class="c-hr p-mb-1"></div>
+                  <div class="c-title-bottom">Google Cloud Platform</div>
+                </div>
+              </div>
+            </div>
+            </div>
+    id: Vertex AIws4nR
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Vertex AI
+        shortDescription: Example browser-based environment for testing out JSON data in prompts
+      economicView:
+        name: Generative AI Studio
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 4245
+        unknown: false
+        shortDescription: Example browser-based environment for testing out JSON data in prompts
+        viewType: total
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Vertex AI
+      editableName: Generative AI Studio
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Vertex AI
+      category: 3
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai_lkhlnv.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai__044448_bktfch.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai_Black_87_vxjlos.png
+      color: "#3871e0"
+      controlText: Vertex AI
+      selectedDynamicsView: 0
+      collapsedToSquare: true
+      collapsedToCircle: false
+    width: 300
+    height: 100
+    offsetX: 643
+    offsetY: 259
+    zIndex: 3
+    inEdges:
+      - Straight Connectorq68Jh
+      - Dashed Straight ConnectorqfTMD
+  - shape:
+      type: HTML
+      content: >2-
+        
+              <div class="c-html" style="background-color: #0064BE;"><div class="c-container"><div class="c-image-primary" style="background-image: url(https://res.cloudinary.com/dwohyn92h/image/upload/v1694758942/sds_logos/Jsonnet_Black_87_kohw6u.png);"></div><div class="c-image-original" style="background-image: url(https://res.cloudinary.com/dwohyn92h/image/upload/v1694758943/sds_logos/Jsonnet_molh19.png);"></div>
+              <div class="c-text">
+                <div class="c-title">Jsonnet Transformations</div>
+                <div class="c-short-description">Templating and advanced transformations around the JSON data</div>
+                <div class="c-bottom">
+                  <div class="c-hr p-mb-1"></div>
+                  <div class="c-title-bottom">Jsonnet</div>
+                </div>
+              </div>
+            </div>
+            </div>
+    id: JsonnetcbiUW
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Jsonnet
+        shortDescription: Templating and advanced transformations around the JSON data
+      economicView:
+        name: Jsonnet Transformations
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        shortDescription: Templating and advanced transformations around the JSON data
+        viewType: description
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Jsonnet
+      editableName: Jsonnet Transformations
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Automated Task
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageTaskDuration
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Automated Task
+          AverageTaskDuration: 1
+      name: Jsonnet
+      category: 6
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1694758943/sds_logos/Jsonnet_molh19.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1694758942/sds_logos/Jsonnet__044448_uzsbmi.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1694758942/sds_logos/Jsonnet_Black_87_kohw6u.png
+      controlText: Jsonnet
+      color: "#0064BE"
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToCircle: true
+    width: 300
+    height: 100
+    offsetX: -87
+    offsetY: 333
+    zIndex: 5
+    inEdges:
+      - Straight Connectored3Sb
+    outEdges:
+      - Straight ConnectornsDOU
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #127E8A; border-radius:
+        50%"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1687110055/sds_logos/PaLM_2_Black_87_l4nw7c.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1687110055/sds_logos/PaLM_2_h29dyo.png);
+        border-radius: 50%"></div></div></div>'
+    id: PaLM AIwLvOH
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: PaLM AI
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: PaLM AI
+      status: N/A
+      size: sm
+      nodeType: html
+      title: PaLM AI
+      editableName: PaLM AI
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: PaLM AI
+      category: 1
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1687110055/sds_logos/PaLM_2_h29dyo.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1687110055/sds_logos/PaLM_2__044448_vb2ppg.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1687110055/sds_logos/PaLM_2_Black_87_l4nw7c.png
+      color: "#127E8A"
+      controlText: PaLM AI
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToCircle: true
+    width: 100
+    height: 100
+    offsetX: 923
+    offsetY: 325
+    zIndex: 8
+    outEdges:
+      - Dashed Straight ConnectorqfTMD
+      - Dashed Straight Connectordb37K
+  - shape:
+      type: HTML
+      content: >2-
+        
+              <div class="c-html" style="background-color: #3871e0;"><div class="c-container"><div class="c-image-primary" style="background-image: url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai_Black_87_vxjlos.png);"></div><div class="c-image-original" style="background-image: url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai_lkhlnv.png);"></div>
+              <div class="c-text">
+                <div class="c-title">Generative AI Studio</div>
+                <div class="c-cost-total">
+              <span class="c-cost-total-number">$7.845k</span>
+              <div class="c-cost-total-symbols">$</div><div class="c-cost-total-symbols">$</div><div class="c-cost-total-symbols">&nbsp;</div><div class="c-cost-total-symbols">&nbsp;</div><div class="c-cost-total-symbols">&nbsp;</div>
+            </div>
+                <div class="c-bottom">
+                  <div class="c-hr p-mb-1"></div>
+                  <div class="c-title-bottom">Google Cloud Platform</div>
+                </div>
+              </div>
+            </div>
+            </div>
+    id: Vertex AIws4nRMKdTe
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Vertex AI
+        shortDescription: Example browser-based environment for testing out JSON data in prompts
+      economicView:
+        name: Generative AI Studio
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 7845
+        unknown: false
+        shortDescription: Example browser-based environment for testing out JSON data in prompts
+        viewType: total
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Vertex AI
+      editableName: Generative AI Studio
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Vertex AI
+      category: 3
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai_lkhlnv.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai__044448_bktfch.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/vertexai_Black_87_vxjlos.png
+      color: "#3871e0"
+      controlText: Vertex AI
+      selectedDynamicsView: 0
+      collapsedToSquare: true
+      collapsedToCircle: false
+    width: 300
+    height: 100
+    offsetX: 643
+    offsetY: 417
+    zIndex: 10
+    inEdges:
+      - Straight ConnectorQoRqu
+      - Dashed Straight Connectordb37K
+selectedItems:
+  width: 0
+  height: 0
